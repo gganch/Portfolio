@@ -1,0 +1,43 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-default {
+     background-color: rgba(0, 0, 0, 0.4);
+     border-color:transparent;
+     background-image:none;
+     box-shadow:none;
+}
+
+.navbar-default .navbar-brand {
+    color: #d6d6d6;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-text {
+  color: white;
+  font-size: 12px;
+  /*margin-left: 500px;*/
+}
+
+.descriptiontext {
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.backer {
+  background-color: #EFEFEF;
+}
+
+.subscript {
+  font-weight: bolder;
+}

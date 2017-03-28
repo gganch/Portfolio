@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TWITCH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" style="max-width: 636px;">
+      <div class="row">
+        <div class="col-xs-12">
+          <header id="twitch-icon"></header>
+          <div class="buttons">
+            <button type="button" class="btn btn-primary" id="all-btn">ALL</button>
+            <button type="button" class="btn btn-success" id="online-btn">ONLINE</button>
+            <button type="button" class="btn btn-primary" id="offline-btn">OFFLINE</button>
+          </div>
+        </div>
+      </div>
+      <div class="row searchRow">
+        <div class="col-xs-offset-2 col-xs-9">
+          <div id="custom-search">
+            <div class="input-group col-xs-12">
+              <input type="text" placeholder="Search for channels" class="form-control" id="search-input">
+              <span class="input-group-addon">
+                <i class="glyphicon glyphicon-search"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- <form class="form-inline" role="form">
+          <div class="form-group has-success has-feedback">
+            <input type="text" class="form-control" id="search-input">
+            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+          </div>
+        </form> -->
+      </div>
+      <div class="row content">
+        <div class="col-xs-12 allChannels">
+          <ul id="channels">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  <script src="jquery/jquery-3.1.1.js" charset="utf-8"></script>
+  <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>

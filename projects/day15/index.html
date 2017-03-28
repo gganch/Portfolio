@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show the local weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="jquery/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row box">
+        <div class="col-xs-6 top-left">
+          <h1 id="city">City</h1>
+          <h2 id="status"></h2>
+        </div>
+          <div class="col-xs-6 text-center all-icon">
+            <div class="icon sun-shower hide">
+              <div class="cloud"></div>
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+              <div class="rain"></div>
+            </div>
+            <div class="icon thunder-storm hide">
+              <div class="cloud"></div>
+              <div class="lightning">
+                <div class="bolt"></div>
+                <div class="bolt"></div>
+              </div>
+            </div>
+            <div class="icon hide clouds">
+              <div class="cloud"></div>
+              <div class="cloud"></div>
+            </div>
+            <div class="icon flurries hide">
+              <div class="cloud"></div>
+              <div class="snow">
+                <div class="flake"></div>
+                <div class="flake"></div>
+              </div>
+            </div>
+            <div class="icon sunny hide">
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+            </div>
+            <div class="icon rainy hide">
+              <div class="cloud"></div>
+              <div class="rain"></div>
+            </div>
+          </div>
+          <div class="horizontal-half-divider"></div>
+        <div class="col-xs-6">
+          <div class="bottom-left">
+            <p id="temperature">0</p>
+            <p id="farenheight">&degF</p>
+            <p id="tempdivider">/</p>
+            <p id="celsius">&degC</p>
+          </div>
+        </div>
+        <div class="vertical-half-divider"></div>
+        <div class="col-xs-6">
+          <div class="details-key">
+            <p>Wind Speed</p>
+            <p>Humidity</p>
+            <p>Sunrise Time</p>
+            <p>Sunset Time</p>
+          </div>
+          <div class="details-value">
+            <p class="windspeed"></p>
+            <p class="humidity"></p>
+            <p class="sunrisetime"></p>
+            <p class="sunsettime"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>

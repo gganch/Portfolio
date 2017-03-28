@@ -1,0 +1,148 @@
+body {
+  font-family: 'Questrial', serif;
+  letter-spacing: 2px;
+}
+
+.container {
+  border: 2px solid #6B60B5;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#twitch-icon {
+  height: 10em;
+  background:url("http://content.eveonline.com/www/newssystem/media/65538/1/twitch-tv-bot.png") no-repeat center center;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  width: 150px;
+  border: solid #6441A5 3px;
+  color: black;
+}
+
+.btn-success:hover {
+  background-color: RGBA(48, 28, 43, 1.00);
+}
+
+.btn-primary:hover {
+  background-color: RGBA(48, 28, 43, 1.00);
+}
+
+.vertical-align div {
+  color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.display-name {
+  font-size: 22px;
+  /*flex: 0 0 30%;*/
+}
+
+.online {
+  cursor: pointer;
+
+}
+.status {
+  text-align: center;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.content {
+  background-color: RGBA(107, 96, 181, 1.00);
+}
+
+#custom-search {
+  border: solid 1px #6B60B5;
+  border-radius: 20px;
+}
+
+#search-input {
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.search-submit {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  background-color: none;
+}
+
+.input-group-addon {
+  border: none;
+  background-color: transparent;
+}
+
+.col-xs-offset-2 {
+  margin-left: 13.666667%;
+  padding-left: 0px;
+}
+
+.searchRow {
+  padding-bottom: 10px;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  /*max-width: 100px;*/
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: -3px;
+  margin-left: -17px;
+  margin-right: -17px;
+}
+
+.livestream {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.liveclick {
+  font-size: 10px;
+}
+
+@media (max-width: 509px) {
+  .btn {
+    width: 125px;
+  }
+}
+
+@media (max-width: 432px) {
+  .btn {
+    width: 100px;
+  }
+}
+
+@media (max-width: 357px) {
+  .btn {
+    width: 80px;
+  }
+}

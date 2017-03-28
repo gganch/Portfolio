@@ -1,0 +1,38 @@
+* {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.inline {
+  font-family: Josefin Sans;
+  display: inline-block;
+  margin: 0 8px;
+  color: black;
+}
+
+.imager {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h3 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+.description {
+  font-family: Josefin Sans;
+  margin-top: 100px;
+  color: pink;
+}
+
+.description em {
+  /*font-family: Josefin Sans;*/
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.fixed-height {
+  height: 400px;
+}
