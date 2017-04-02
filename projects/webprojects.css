@@ -89,6 +89,7 @@ body {
 }
 
 .heading {
+  font-weight: bold;
   text-align: center;
   color: #E6E7E8;
   margin-top: 0;
@@ -195,8 +196,8 @@ body {
 /* Carousel section bottom ---------------------------- */
 
 .owl-col {
-  padding-left: 35px;
-  padding-right: 30px;
+  padding-left: 60px;
+  padding-right: 50px;
 }
 
 .carousel {
@@ -204,6 +205,8 @@ body {
 }
 
 .projects {
+  margin-top: 50px;
+  margin-bottom: 40px;
   text-align: center;
   font-size: 2.5em;
   color: #E6E7E8;
@@ -222,7 +225,33 @@ body {
   width: 310px;
 }
 
-/* Media Queries ---------------------------- */
+.wiki300 {
+  border: 1px solid #716e6e;
+}
+
+.twitch300 {
+  border: 1px solid #6332AF;
+}
+
+.overlay {
+  position: relative;
+  width: 300px;
+
+}
+
+.img-hover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay:hover .img-hover {
+  opacity: 0.6;
+}
+/* ----------------- Media Queries ----------------------------------------- */
 
 @media (max-width: 767px) {
   .navbar-brand {

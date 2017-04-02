@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="webprojects.css" type="text/css">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans"
+     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
   </head>
   <body>
     <div class="container">
@@ -27,37 +32,71 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li class="nav-points"><a href="#">ABOUT</a></li>
+            <li class="nav-points"><a href="#">WORK</a></li>
+            <li class="nav-points"><a href="#">CONTACT</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
+    </div>
+    <div class="container project-body">
       <div class="row">
-        <div class="col-sm-4">
-          Local Weather App
-        </div>
-        <div class="col-sm-8">
-          <p>I recreated a real website by changing some elements to make it simpler and more appealing. The website is super mobile friendly and is a multiple page website.
-            <p>Things that I learned:</p>
-	           <p>-Carousel slideshow of images with text description over the slides
-
-	            <br>	- Offsetting columns to achieve better responsiveness rather than relying on padding
-	            <br>  - Hiding and showing classes to respond to different sizes of the website
-	                  - The importance of letter spacing and line height in design
-	                  - Using google fonts to learn about the best kind of fonts for websites
-	            <br>- </p>
-            <br><a href="./day12/index.html">Click here to view the live site.</a>
-          </p>
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 mockup-img">
+          <h3 class="heading">LOCAL WEATHER APP</h3>
+          <img class="img-responsive" src="../images/weather830.png" alt="dboximage">
         </div>
       </div>
+      <div class="row project-description">
+        <div class="col-sm-4 col-sm-offset-1">
+          <p class="summary">I used Open Weather API to build an app that anyone can open and it will display the weather in that person’s current location. There will also be a icon that will be displayed that corresponds to the weather and you can toggle between Fahrenheit and celsius temperatures!</p>
+          <p class="view-website"><a class="website-link" href="./day15/index.html">Visit Website</a></p>
+        </div>
+        <div class="col-sm-6">
+          <p class="ilearned">THINGS THAT I LEARNED</p>
+            <ul class="list">
+              <li class="bullet">Getting the IP info like zipcode, city or country from each computer that opens up the APP
+              </li>
+              <li class="bullet">Updating my HTML code with the data I get from the API using jQuery
+              </li>
+              <li class="bullet">Converting numbers to Fahrenheit or celsius and sunset or sunrise time to local time.
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid carousel">
       <div class="row">
         <div class="col-sm-12">
-          <img class="img-responsive" src="http://placehold.it/450x300" alt="">
+          <h3 class="projects">PROJECTS</h3>
+        </div>
+        <div class="col-sm-12 owl-col">
+          <div class="owl-carousel owl-theme">
+            <div class="overlay">
+              <a href="project1.html"><img class="img-responsive img-hover" src="../images/website.jpg" alt="dboximage"></a>
+            </div>
+            <div class="overlay">
+              <a href="project2.html"><img class="img-responsive img-hover" src="../images/owlbee.jpg" alt="beeimage"></a>
+            </div>
+            <div class="overlay">
+              <a href="project3.html"><img class="img-responsive img-hover" src="../images/owlclusta.jpg" alt="clustaimage"></a>
+            </div>
+            <div class="overlay">
+              <a href="quotes.html"><img class="img-responsive img-hover" src="../images/quote300.png" alt="quoteimage"></a>
+            </div>
+            <div class="overlay">
+              <a href="wikiapp.html"><img class="img-responsive img-hover wiki300" src="../images/wiki300.png" alt="wikiimage"></a>
+            </div>
+            <div class="overlay">
+              <a href="twitch.html"><img class="img-responsive img-hover twitch300" src="../images/twitch300.png" alt="twitchimage"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <script src="../jquery/jquery-3.1.1.js" charset="utf-8"></script>
     <script src="../bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="OwlCarousel2-2.2.1/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+    <script src="myowl.js"></script>
   </body>
 </html>

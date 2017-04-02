@@ -9,12 +9,20 @@ body {
   max-width: 1080px;
 }
 
+/*.box-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}*/
+
 .aboutme {
-  background-color: white;
+  background-color: #F9F9F9;
 }
 
 .whiteBody {
-  background-color: white;
+  background-color: #F9F9F9;
 }
 
 .centered {
@@ -23,9 +31,42 @@ body {
   float: none;
   width: 440px;
   height: 300px;
-  background-color: #FEC0B3;
+  background-color: #FC7975;
   color: #222222;
   text-align: center;
+}
+
+/*.flex-square{
+    width: 43%;
+    background: #ca0164;
+}
+.flex-square:before{
+    content: "";
+    display: block;
+    padding-top: 63%;
+}
+
+
+/*.box-flex::before {
+  transform: scaleX(1);
+  visibility: hidden;
+}*/
+
+.ganchimeg {
+  margin-top: 220px;
+}
+
+.box-flex::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 281px;
+  background-color: grey;
+  top: 300px;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  max-width: 100%;
 }
 
 .greeting {
@@ -42,6 +83,9 @@ body {
   color: #333;
 }
 /* About section */
+.about {
+  margin-top: 130px;
+}
 
 .about-heading {
   font-size: 2.5em;
@@ -96,7 +140,7 @@ body {
 }
 
 .icon2 {
-  padding-bottom: 45px;
+  padding-bottom: 28px;
 }
 
 .icon2::before {
@@ -152,6 +196,7 @@ body {
 .navbar-default {
   background-color: transparent;
   border: none;
+  max-width: 997px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -192,6 +237,12 @@ body {
   color: white;
 }
 
+@media (min-width: 1200px) {
+  .fa-gg {
+    margin-left: 60px;
+  }
+}
+
 .border {
   border: solid #ED807F;
   margin-bottom: 20px;
@@ -203,6 +254,13 @@ body {
   margin-bottom: 24px;
   margin-top: 15px;
   margin-right: 33px
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 /*   Projects section ------------------------------------------------------ */
 
@@ -216,18 +274,12 @@ body {
   overflow:hidden;
 }
 
-.wiki img {
-    flex-shrink:0;
-    min-width:100%;
-    min-height:100%
-}
-
 .wiki {
   border: 1px solid black;
-  height: 285px;
-  order: 3;
-  flex: 1 1 30%;
-  flex-shrink: 90px;
+}
+
+.twitch-img {
+  border: 1px solid #554B9C;
 }
 
 .smaller-box {
@@ -267,6 +319,8 @@ body {
 }
 
 .projectHeading {
+  margin-top: 40px;
+  margin-bottom: 60px;
   text-align: center;
   font-size: 2.5em;
   color: #E6E7E8;
@@ -279,44 +333,70 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(254, 192, 179, 0.9);
+  background-color: rgba(241, 241, 241, 0.85);
   overflow: hidden;
   width: 100%;
-  height: 0;
-  transition: .5s ease;
+  height: 100%;
+  transition: opacity .5s ease;
+  opacity: 0;
+
 }
 
 .slidein:hover .overlay {
-  height: 100%;
+  opacity: 1;
 }
 
-/*.slidein {
-  position: relative;
-  max-width: 500px;
-  max-height: 400px;
-  margin: auto;
-  display: flex;
-  display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
-
- -webkit-flex-flow: row wrap;
- justify-content: space-around;
-}*/
-
-.text {
+.learn-more a {
+  letter-spacing: 1.2px;
+  text-decoration: none;
   white-space: nowrap;
+  color: #ff6a00 ;
+  font-size: 20px;
+  position: absolute;
+  /*overflow: hidden;*/
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 3px solid #ff6a00;
+  border-radius: 50px;
+  padding: 5px 50px;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.learn-more a:hover, .visit-website a:hover {
   color: white;
+  background: #ff6a00;
+}
+
+.visit-website a {
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #ff6a00 ;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
-  top: 50%;
+  top: 71%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border: solid;
-  padding: 5px;
+  transform: translate(-51%, 60%);
+  border: 3px solid #ff6a00 ;
+  border-radius: 50px;
+  padding: 5px 41px;
+}
+
+.website-name {
+    white-space: nowrap;
+    color: #585858;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 16%;
+    left: 50%;
+    transform: translate(-51%, 60%);
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-bottom: 33px;
 }
 
 .iconwebsite {
@@ -325,25 +405,177 @@ body {
   padding-right: 10px;
 }
 
+
+.jscriptprojects {
+  padding-bottom: 5px
+}
+
+
+/*      TMP     */
+
+.fcontainer {
+  margin-top: -17px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.fitem {
+  max-width: 300px;
+}
+
+/*  -------------------------Hover over effect for first 3 websites    --------- */
+.fitem {
+
+
+
+  position: relative;
+}
+
+.fitem::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-bottom: 10px solid #F5B88A;
+    border-left: 10px solid #F5B88A;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.fitem:hover:before, .fitem:hover:after {
+   opacity: 1;
+}
+
+ .fitem::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 100px;
+    border-top: 10px solid #6332AF;
+    border-right: 10px solid #6332AF;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.hover {
+  margin-bottom: 25px;
+  margin-right: 13px;
+}
+
+/*  -------------------------Hover over effect for last 4 websites    --------- */
+
+.ffitem {
+  position: relative;
+}
+
+.ffitem::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  right: 0;
+  width: 160px;
+  height: 160px;
+  border-bottom: 10px solid #F5B88A;
+  border-left: 10px solid #F5B88A;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.ffitem:hover:before, .ffitem:hover:after {
+   opacity: 1;
+}
+
+ .ffitem::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 160px;
+    border-top: 10px solid #6332AF;
+    border-right: 10px solid #6332AF;
+    height: 160px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.hover {
+  margin-bottom: 25px;
+  margin-right: 13px;
+}
+
+.slidein {
+  position: relative;
+}
+
+.ffitem {
+  flex-grow: 1;
+  margin: 21px 15px;
+}
+
+.fimage {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.col-md-12 {
+  padding-left: 0px;
+}
+
+/*   ------------------- Footer ---------------------------------------------*/
 .bottom {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #ED807F;
+  background-color: #FC7975;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 20px;
 }
 
-.jscriptprojects {
-  padding-bottom: 50px
+.contact {
+  text-align: center;
+  font-size: 4em;
+  color: #E6E7E8;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom: -23px;
+  margin-top: 100px;
 }
 
-/*#element-with-background-image {
-  width: 250px;
-  height: 250px;
-  background-image:
-    linear-gradient(rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('images/dbox.png');
-}*/
+.socialicon {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 100%;
+  padding-top: 12px;
+}
 
-/*   Media Queries for mobile friendly */
+.socialicon:hover {
+  background-color: black;
+  color: white;
+}
+
+.letsget {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: white;
+}
+
+/*   ------------------- Media Queries for mobile friendly ----------------------*/
 @media (min-width:768px) and (max-width:996px) {
   .text {
     font-size: 15px;
@@ -361,31 +593,26 @@ body {
   }
 }
 
+ @media only screen and (max-width : 400px) {
+   .fimage {
+     height: 245px;
+
+   }
+
+   .ffitem {
+     margin-right: 0px;
+   }
+ }
+
+ @media only screen and (max-width : 991px) {
+   .ffitem {
+     width:261px;
+   }
+ }
 
 
-/*      TMP     */
-
-.fcontainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.fitem {
-  max-width: 300px;
-}
-
-.slidein {
-  position: relative;
-}
-
-.ffitem {
-  flex-grow: 1;
-  margin: 0 10px;
-}
-
-.fimage {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}
+ @media only screen and (max-width : 1200px) {
+   .ffitem {
+     max-width:500px;
+   }
+ }

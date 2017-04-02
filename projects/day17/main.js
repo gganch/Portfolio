@@ -81,7 +81,7 @@ $(document).ready(function () {
     // Fetch using the api
     $.ajax({
       dataType: 'json',
-      url: 'https://wind-bow.gomix.me/twitch-api/streams/' + channel,
+      url: 'https://wind-bow.glitch.me/twitch-api/streams/' + channel,
       success: function (data) {
         var stream = data.stream;
 
@@ -113,7 +113,7 @@ $(document).ready(function () {
           // on the api to get more information
           $.ajax({
             dataType: 'json',
-            url: 'https://wind-bow.gomix.me/twitch-api/channels/' + channel,
+            url: 'https://wind-bow.glitch.me/twitch-api/channels/' + channel,
             success: function (data) {
               $(channelId + ' .icon').attr('src', data.logo);
               $(channelId + ' a').attr('href', data.url);
