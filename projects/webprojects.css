@@ -253,6 +253,40 @@ body {
 .overlay:hover .img-hover {
   opacity: 0.6;
 }
+
+/*   ------------------- Footer ---------------------------------------------*/
+
+.bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FF7067;
+    text-align: center;
+    letter-spacing: 2.2px;
+    font-size: 20px;
+}
+
+.socialicon {
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 100%;
+    padding-top: 12px;
+}
+
+.socialicon:hover {
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #E6E7E8;
+}
+
 /* ----------------- Media Queries ----------------------------------------- */
 
 @media (max-width: 767px) {
@@ -263,7 +297,16 @@ body {
 
   .navbar-collapse {
     padding-top: 0px;
-    margin-top: 0px
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #contact {
+    font-size: 20px;
+  }
+
+  .bottom {
+    font-size: 13px;
   }
 }
 
