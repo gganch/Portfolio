@@ -1,127 +1,93 @@
-
 body {
-  background-color: #FC7975;
-  font-family: 'Nunito', sans-serif;
+    background-color: #FC7975;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container {
-  max-width: 1080px;
+    max-width: 1080px;
 }
 
-/*.box-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 100px;
-  margin-top: 100px;
-}*/
-
 .aboutme {
-  background-color: #F9F9F9;
-  max-width: 1080px;
+    background-color: #F9F9F9;
+    max-width: 1080px;
 }
 
 .whiteBody {
-  background-color: #F9F9F9;
+    background-color: #F9F9F9;
 }
 
 .centered {
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  width: 440px;
-  height: 300px;
-  background-color: #FC7975;
-  color: #222222;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 440px;
+    height: 300px;
+    background-color: #FC7975;
+    color: #222222;
+    text-align: center;
 }
-
-/*.flex-square{
-    width: 43%;
-    background: #ca0164;
-}
-.flex-square:before{
-    content: "";
-    display: block;
-    padding-top: 63%;
-}
-
-
-/*.box-flex::before {
-  transform: scaleX(1);
-  visibility: hidden;
-}*/
 
 .hi {
-  margin-top: 220px;
-  text-align: center;
-  font-size: 5em;
-  color: #585858;
-  border: 5px solid #F5B88A;
-  padding: 10px;
-  max-width: 609px;
-
+    text-align: center;
+    font-size: 5em;
+    color: #585858;
+    border: 5px solid #F5B88A;
+    padding: 10px;
+    max-width: 609px;
 }
-
-.ganchimeg {
-  margin-bottom: 216px;
-  margin-top: 100px;
-}
-
-
-
 
 .greeting {
-  padding-top: 60px;
-  font-size: 4em;
-  font-weight: 700;
-  letter-spacing: .08em;
+    padding-top: 60px;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: .08em;
 }
 
 .jobdescription {
-  font-family: PT sans-serif;
-  font-size: 27px;
-  letter-spacing: 0.10em;
-  color: #333;
+    font-family: PT sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.10em;
+    color: #333;
 }
+
+
 /* About section */
+
 .about {
-  margin-top: 130px;
-  margin-bottom: 130px;
 }
 
 .about-text {
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  margin-bottom: 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 .about-heading {
-  font-size: 4em;
-  color: #E6E7E8;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 14px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    font-size: 4em;
+    color: #E6E7E8;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 14px;
+    margin-bottom: 50px;
 }
 
 .mypicture {
-  max-width: 300px;
-  max-height: 300px;
-  /*border-radius: 50%;*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    max-height: 300px;
+    /*border-radius: 50%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .iconborder {
-  display: inline-block;
+    display: inline-block;
     position: relative;
     cursor: pointer;
     width: 50px;
     height: 50px;
-    border:2px solid black; /* add border to the buttons */
+    border: 2px solid black;
+    /* add border to the buttons */
     padding-top: 12px;
     text-decoration: none;
     text-align: center;
@@ -129,29 +95,27 @@ body {
     font-weight: normal;
     line-height: 2em;
     border-radius: 27px;
-    -moz-border-radius:27px;
-    -webkit-border-radius:27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
 }
 
 .icon {
-  text-align: center;
-  padding-top: 15px;
-  margin-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 .icondescription {
-  text-align: justify;
-  font-size: 13px;
-  max-width: 275px;
-  margin: auto;
-  position: relative;
-  padding-left: 30px;
-  padding-bottom: 27px;
-
+    text-align: justify;
+    font-size: 13px;
+    max-width: 275px;
+    margin: auto;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 27px;
 }
 
 .icon1::before {
-
     content: '';
     display: block;
     position: absolute;
@@ -166,11 +130,10 @@ body {
 }
 
 .icon2 {
-  padding-bottom: 28px;
+    padding-bottom: 28px;
 }
 
 .icon2::before {
-
     content: '';
     display: block;
     position: absolute;
@@ -185,7 +148,6 @@ body {
 }
 
 .icon3::before {
-
     content: '';
     display: block;
     position: absolute;
@@ -200,62 +162,64 @@ body {
 }
 
 .title {
-  font-weight: bold;
-  margin-top: 20px;
-  font-size: 18px;
-  letter-spacing: 1.3px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
 }
 
 .timeline {
-  margin-top: 40px;
+    margin-top: 40px;
 }
+
+
 /*   Navbar styling                      -------------------- */
 
 .nav {
-  font-size: 18px;
-  margin-right: -27px;
+    font-size: 18px;
+    margin-right: -27px;
 }
 
 .nav-points {
-  max-width: 130px;
-  letter-spacing: 0.8px;
+    max-width: 130px;
+    letter-spacing: 0.8px;
 }
 
 .navbar-header {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar-default {
-  background-color: transparent;
-  border: none;
-  max-width: 1080px;
+    background-color: transparent;
+    border: none;
+    max-width: 1080px;
 }
 
 .navbar-default .navbar-nav>li>a {
-     color: white;
-     padding-top: 5px;
-     padding-bottom: 5px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  border: 1px solid white;
-  border-radius: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-     border-color: transparent;
+    border-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -265,166 +229,159 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
-  padding-left: 0px;
+    padding-top: 25px;
+    padding-left: 0px;
 }
 
 .fa-gg {
-  color: white;
+    color: white;
 }
 
-/*@media (min-width: 1200px) {
-  .fa-gg {
-    margin-left: 60px;
-  }
-}*/
-
 .border {
-  border: solid #ED807F;
-  margin-bottom: 20px;
-  margin-top: 100px;
+    border: solid #ED807F;
+    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 .navbar-collapse {
-  padding-top: 15px;
-  margin-bottom: 24px;
-  margin-top: 15px;
-  margin-right: 0px;
-  padding-right: 0px;
+    padding-top: 15px;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 @media (max-width: 992px) {
-  .navbar-collapse {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+    .navbar-collapse {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
+
+
 /*   Projects section ------------------------------------------------------ */
 
 .iconwebsite {
-  width: 500px;
-  height: 300px;
-  position:relative;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  overflow:hidden;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .wiki {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 .twitch-img {
-  border: 1px solid #554B9C;
+    border: 1px solid #554B9C;
 }
 
 .smaller-box {
-  margin-left: 0px;
-  max-width: 400px;
-  max-height: 300px;
-  margin-top: 25px;
-  flex: 2;
+    margin-left: 0px;
+    max-width: 400px;
+    max-height: 300px;
+    margin-top: 25px;
+    flex: 2;
 }
 
 .left {
-  margin-left: 40px;
-  margin-right: 50px;
-  margin-top: 25px;
-
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 25px;
 }
 
 .project1-padding {
-  padding-left: 50px;
-  padding-right: 5px;
-  padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 .project2-padding {
-  padding-left: 13px;
-  padding-top: 10px;
+    padding-left: 13px;
+    padding-top: 10px;
 }
 
 .project3-padding {
-  padding-left: 0px;
-  padding-right: 62px;
-  padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 62px;
+    padding-top: 10px;
 }
 
 .weather-margin {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 .projectHeading {
-  margin-top: 40px;
-  margin-bottom: 60px;
-  text-align: center;
-  font-size: 4em;
-  color: #E6E7E8;
-  font-weight: bold;
-  letter-spacing: 11px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 4em;
+    color: #E6E7E8;
+    font-weight: bold;
+    letter-spacing: 11px;
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(241, 241, 241, 0.85);
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  transition: opacity .5s ease;
-  opacity: 0;
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(241, 241, 241, 0.85);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s ease;
+    opacity: 0;
 }
 
 .slidein:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .learn-more a {
-  letter-spacing: 1.2px;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #414042;
-  font-size: 20px;
-  position: absolute;
-  /*overflow: hidden;*/
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  border: 3px solid #414042;
-  border-radius: 50px;
-  padding: 5px 30px;
-  transition: color 0.5s, background-color 0.5s;
-  background-color: #BCBEC0;
-  font-weight: bold;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #414042;
+    font-size: 20px;
+    position: absolute;
+    /*overflow: hidden;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 3px solid #414042;
+    border-radius: 50px;
+    padding: 5px 30px;
+    transition: color 0.5s, background-color 0.5s;
+    background-color: #BCBEC0;
+    font-weight: bold;
 }
 
 .learn-more a:hover, .visit-website a:hover {
-  color: #BCBEC0;
-  background: #414042;
-  border-color:  #BCBEC0;
+    color: #BCBEC0;
+    background: #414042;
+    border-color: #BCBEC0;
 }
 
 .visit-website a {
-  letter-spacing: 1.2px;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #414042;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 68%;
-  left: 50%;
-  transform: translate(-51%, 60%);
-  border: 3px solid #414042;
-  border-radius: 50px;
-  padding: 5px 20px;
-  background-color: #BCBEC0;
-  font-weight: bold;
-
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #414042;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 68%;
+    left: 50%;
+    transform: translate(-51%, 60%);
+    border: 3px solid #414042;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: #BCBEC0;
+    font-weight: bold;
 }
 
 .website-name {
@@ -443,36 +400,35 @@ body {
 }
 
 .iconwebsite {
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-
 .jscriptprojects {
-  padding-bottom: 5px
+    padding-bottom: 5px
 }
 
 
 /*      TMP     */
 
 .fcontainer {
-  margin-top: -17px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+    margin-top: -17px;
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-around;*/
+    justify-content: space-between;
 }
 
 .fitem {
-  max-width: 300px;
+    max-width: 300px;
 }
+
 
 /*  -------------------------Hover over effect for first 3 websites    --------- */
+
 .fitem {
-
-
-
-  position: relative;
+    position: relative;
 }
 
 .fitem::before {
@@ -491,10 +447,10 @@ body {
 }
 
 .fitem:hover:before, .fitem:hover:after {
-   opacity: 1;
+    opacity: 1;
 }
 
- .fitem::after {
+.fitem::after {
     content: '';
     display: block;
     position: absolute;
@@ -508,37 +464,32 @@ body {
     transition: opacity 0.25s;
 }
 
-.hover {
-  margin-bottom: 25px;
-  margin-right: 13px;
-}
-
 /*  -------------------------Hover over effect for last 4 websites    --------- */
 
 .ffitem {
-  position: relative;
+    position: relative;
 }
 
 .ffitem::before {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: -10px;
-  left: -10px;
-  right: 0;
-  width: 160px;
-  height: 160px;
-  border-bottom: 10px solid #F5B88A;
-  border-left: 10px solid #F5B88A;
-  opacity: 0;
-  transition: opacity 0.25s;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    right: 0;
+    width: 160px;
+    height: 160px;
+    border-bottom: 10px solid #F5B88A;
+    border-left: 10px solid #F5B88A;
+    opacity: 0;
+    transition: opacity 0.25s;
 }
 
 .ffitem:hover:before, .ffitem:hover:after {
-   opacity: 1;
+    opacity: 1;
 }
 
- .ffitem::after {
+.ffitem::after {
     content: '';
     display: block;
     position: absolute;
@@ -553,150 +504,139 @@ body {
 }
 
 .hover {
-  margin-bottom: 25px;
-  margin-right: 13px;
+    margin-bottom: 25px;
 }
 
 .slidein {
-  position: relative;
+    position: relative;
 }
 
 .ffitem {
-  flex-grow: 1;
-  margin: 21px 15px;
+    flex-grow: 1;
+    margin: 21px 15px;
 }
 
 .fimage {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
 }
 
 .col-md-12 {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 
+
 /*   ------------------- Footer ---------------------------------------------*/
+
 .bottom {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #FC7975;
-  text-align: center;
-  letter-spacing: 2.2px;
-  font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FC7975;
+    text-align: center;
+    letter-spacing: 2.2px;
+    font-size: 20px;
 }
 
 .contact {
-  text-align: center;
-  font-size: 4em;
-  color: #E6E7E8;
-  font-weight: bold;
-  letter-spacing: 14px;
-  margin-bottom: -23px;
-  margin-top: 100px;
+    text-align: center;
+    font-size: 4em;
+    color: #E6E7E8;
+    font-weight: bold;
+    letter-spacing: 14px;
+    margin-bottom: -23px;
+    margin-top: 100px;
 }
 
 .socialicon {
-  padding: 10px;
-  margin: 5px;
-  margin-top: 20px;
-  border: 2px solid black;
-  color: black;
-  border-radius: 100%;
-  padding-top: 12px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 100%;
+    padding-top: 12px;
 }
 
 .socialicon:hover {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 .letsget {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  color: #E6E7E8;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #E6E7E8;
 }
 
+
 /*   ------------------- Media Queries for mobile friendly ----------------------*/
+
 @media (min-width:768px) and (max-width:996px) {
-  .text {
-    font-size: 15px;
-  }
+    .text {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 767px) {
-  .navbar-brand {
-    padding-top: 12px;
-    margin-left: 7px;
-  }
-
-  .navbar-collapse {
-    padding-top: 0px;
-  }
+    .navbar-brand {
+        padding-top: 12px;
+        margin-left: 7px;
+    }
+    .navbar-collapse {
+        padding-top: 0px;
+    }
 }
 
- @media only screen and (max-width : 400px) {
-   .fimage {
-     height: 245px;
+@media only screen and (max-width: 400px) {
+    .fimage {
+        height: 245px;
+    }
+    /*.ffitem {
+        margin-right: 0px;
+    }*/
+}
 
-   }
+@media only screen and (max-width: 991px) {
+    .ffitem {
+        width: 261px;
+    }
+}
 
-   .ffitem {
-     margin-right: 0px;
-   }
- }
+@media only screen and (max-width: 1200px) {
+    .ffitem {
+        max-width: 500px;
+    }
+}
 
- @media only screen and (max-width : 991px) {
-   .ffitem {
-     width:261px;
-   }
- }
+@media (max-width: 650px) {
+    .about-heading {
+        font-size: 3em;
+    }
+    .hi {
+        font-size: 3em;
+    }
+    .projectHeading {
+        font-size: 3em;
+    }
+    .contact {
+        font-size: 3em;
+    }
+    .letsget {
+        font-size: 24px;
+    }
+}
 
 
- @media only screen and (max-width : 1200px) {
-   .ffitem {
-     max-width:500px;
-   }
- }
+.container.fixed .container {
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
- @media only screen and (min-width : 794px) {
-   .about-text {
-     margin-top: 13px;
-   }
- }
-
- @media (max-width : 614px) {
-   .mypicture {
-     margin-top: 53px;
-   }
- }
-
- @media (min-width : 961px) {
-   .hi {
-     margin-left: 40px;
-   }
- }
-
- @media (max-width : 650px) {
-   .about-heading {
-     font-size: 3em;
-   }
-
-   .hi {
-     font-size: 3em;
-   }
-
-   .projectHeading {
-     font-size: 3em;
-   }
-
-   .contact {
-     font-size: 3em;
-   }
-
-   .letsget {
-     font-size: 24px;
-   }
-
- }
+.fullscreen {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

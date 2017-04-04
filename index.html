@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <div class="container fixed">
       <nav class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -38,10 +38,8 @@
       </nav>
       <div class="container aboutme">
 <!-- About Section -->
-        <div class="row ganchimeg">
-          <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-            <h1 class="hi">Hi, I'm Ganchimeg</h1>
-          </div>
+        <div class="fullscreen">
+          <h1 class="hi">Hi, I'm Ganchimeg</h1>
         </div>
         <div class="row about">
           <div class="col-sm-12">
@@ -54,7 +52,7 @@
             </p>
             </div>
             <div class="col-md-6 col-sm-6">
-              <img class="mypicture" src="images/ggpic.jpg" alt="">
+              <img class="mypicture img-responsive" src="images/ggpic.jpg" alt="">
             </div>
           </div>
         </div>
@@ -90,7 +88,7 @@
               <h3 id="projects" class="projectHeading">PROJECTS</h3>
               <div class="fcontainer">
                 <div class="hover">
-                  <div class="fitem slidein">
+                  <div class="fitem slidein" onclick="">
                     <img class="img-responsive" src="images/website.jpg" alt="">
                     <div class="overlay">
                       <div class="website-name">
@@ -106,7 +104,7 @@
                   </div>
                 </div>
                 <div class="hover">
-                  <div class="fitem slidein">
+                  <div class="fitem slidein" onclick="">
                     <img class="img-responsive" src="images/beemockup.jpg" alt="">
                     <div class="overlay">
                       <div class="website-name">
@@ -122,7 +120,7 @@
                   </div>
                 </div>
                 <div class="hover">
-                  <div class="fitem slidein">
+                  <div class="fitem slidein" onclick="">
                     <img class="img-responsive" src="images/bluemockup.jpg" alt="">
                     <div class="overlay">
                       <div class="website-name">
@@ -142,7 +140,7 @@
           <div class="row jscriptprojects">
             <div class="col-sm-12">
               <div class="fcontainer">
-                <div class="ffitem slidein" style="">
+                <div class="ffitem slidein" style="" onclick="">
                   <img class="fimage" src="images/quote2.png" alt="">
                   <div class="overlay">
                     <div class="website-name">
@@ -156,7 +154,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="ffitem slidein" style="">
+                <div class="ffitem slidein" style="" onclick="">
                   <img class="fimage" src="images/weather2.png" alt="">
                   <div class="overlay">
                     <div class="website-name">
@@ -174,9 +172,9 @@
             </div>
           </div>
           <div class="row jscriptprojects">
-            <div class="col-md-12">
+            <div class="col-sm-12">
               <div class="fcontainer">
-                <div class="ffitem slidein" style="">
+                <div class="ffitem slidein" style="" onclick="">
                   <img class="fimage wiki" src="images/wiki8.png" alt="">
                   <div class="overlay">
                     <div class="website-name">
@@ -190,7 +188,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="ffitem slidein" style="">
+                <div class="ffitem slidein" style="" onclick="">
                   <img class="fimage twitch-img" src="images/twitch.jpg" alt="">
                   <div class="overlay">
                     <div class="website-name">
@@ -232,11 +230,8 @@
 
     <script src="jquery/jquery-3.1.1.js" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="main.js"></script>
     <script src="wow.min.js"></script>
     <script>new WOW().init();</script>
     <script src="Morphext-2.4.4/dist/morphext.min.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>

@@ -199,8 +199,7 @@ body {
 /* Carousel section bottom ---------------------------- */
 
 .owl-col {
-  padding-left: 60px;
-  padding-right: 50px;
+  padding: 0 50px;
 }
 
 .carousel {
