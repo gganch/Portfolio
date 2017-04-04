@@ -1,5 +1,6 @@
 .container {
   max-width: 1080px;
+  font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -64,6 +65,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  padding-left: 0px;
 }
 
 .fa-gg {
@@ -122,9 +124,10 @@ body {
 }
 
 .ilearned {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #6332AF;
   font-weight: bold;
+  letter-spacing: 0.8px;
 }
 
 .project-description {

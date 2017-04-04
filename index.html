@@ -9,10 +9,8 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="Morphext-2.4.4/dist/morphext.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -32,42 +30,31 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="nav-points"><a href="#">ABOUT</a></li>
-            <li class="nav-points"><a href="#">PROJECTS</a></li>
-            <li class="nav-points"><a href="#">CONTACT</a></li>
+            <li class="nav-points"><a href="#about">ABOUT</a></li>
+            <li class="nav-points"><a href="#projects">PROJECTS</a></li>
+            <li class="nav-points"><a href="#contact">CONTACT</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
       <div class="container aboutme">
-
-      <div class="row box-flex">
-          <!-- <h1 class="hi">Hi, I'm Ganchimeg</h1> -->
-        <!-- <div class="flex-square">
-
-        </div> -->
-        <!-- <div class="col-sm-12 centered">
-          <h1 class="wow animated bounce greeting">Hi, I'm GANCHIMEG.</h1>
-          <h2 class="jobdescription">Front End Developer</h2>
-        </div> -->
-      </div>
 <!-- About Section -->
         <div class="row ganchimeg">
-          <div class="col-xs-7 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-2">
+          <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
             <h1 class="hi">Hi, I'm Ganchimeg</h1>
           </div>
         </div>
         <div class="row about">
           <div class="col-sm-12">
-            <h2 class="about-heading">ABOUT</h2>
-            <div class="col-sm-offset-1 col-md-5 col-sm-6">
-              <p>
+            <h2 id="about" class="about-heading">ABOUT</h2>
+            <div class="col-sm-offset-1 col-md-5 col-sm-5">
+              <p class="about-text">
                 I am a self taught frontend developer based currently in New York City from Chicago, who loves to tackle new challenges. When I am not running around exploring the best desserts in New York, I am learning new tools to improve my coding.
                 <br>You can find me at meetups like Women Who Code and volunteering with the Anita Borg Intitute at many of their tech events geared at promoting women in STEM fields.
                 <br>Big lover the outdoors and even bigger lover of books. Currently reading, Notorious RBG.
             </p>
             </div>
-            <div class="col-md-4 col-sm-4">
-              <img class="mypicture" src="images/other.png" alt="">
+            <div class="col-md-6 col-sm-6">
+              <img class="mypicture" src="images/ggpic.jpg" alt="">
             </div>
           </div>
         </div>
@@ -79,17 +66,18 @@
             <div class="col-md-12">
               <div class="row">
                 <div class="graduation icon col-sm-4">
-                  <i class="fa fa-2x fa-graduation-cap" aria-hidden="true"></i>
+                  <div data-wow-delay="1s" class="wow bounce center"><i class="fa fa-2x fa-pencil iconborder" aria-hidden="true"></i></div>
                   <p class="title">Process</p>
                   <p class="icondescription icon1">I make interactive web experiences from using 3 core languages, HTML, CSS and JavaScript. When coding, I think about optimal user experience by making sure the website is responsive and has a mobile design. In addition to cross-browser testing and debugging. I am always striving to use simpler and less code when building websites.  </p>
                 </div>
                 <div class="learntocode icon col-sm-4">
-                  <i class="fa fa-2x fa-lightbulb-o" aria-hidden="true"></i>
+                  <div data-wow-delay="1s" class="wow bounce center"><i class="fa fa-2x fa-lightbulb-o iconborder" aria-hidden="true"></i></div>
+
                   <p class="title">Learning Code</p>
                   <p class="icondescription icon2">After attending multiple technology conferences and participating in pitch competitions, I decided to learn code with zero programming knowledge. I used a variety of resources from codeacademy, freecodecamp, Udacity, youtube and spent hours exploring many different languages, I fell in love with frontend.</p>
                 </div>
                 <div class="thiswebsite icon col-sm-4">
-                  <i class="fa fa-2x fa-desktop" aria-hidden="true"></i>
+                  <div data-wow-delay="1s" class="wow bounce center"><i class="fa fa-2x fa-desktop iconborder" aria-hidden="true"></i></div>
                   <p class="title">ganzorig.com</p>
                   <p class="icondescription icon3">I coded and designed this fully responsive website from the ground up with HTML,CSS, bootstrap, javaScript and jQuery. Throughout this journey I realized I love designing websites as well. Before this website, I build about 20 websites from scratch and thus gained experience in the best practices for building functional simple websites.</p>
                 </div>
@@ -99,7 +87,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="border"></div>
-              <h3 class="projectHeading">WEBSITE PROJECTS</h3>
+              <h3 id="projects" class="projectHeading">PROJECTS</h3>
               <div class="fcontainer">
                 <div class="hover">
                   <div class="fitem slidein">
@@ -221,7 +209,7 @@
           </div>
           <div class="row contact-header">
             <div class="col-sm-12">
-              <h3 class="contact">CONTACT</h3>
+              <h3 id="contact" class="contact">CONTACT</h3>
             </div>
           </div>
         </div>
@@ -234,9 +222,9 @@
             <p>Send me an email: ganchimeg10@gmail.com</p>
             <p>Handmade with <i class="fa fa-heart" aria-hidden="true"></i> by me</p>
             <div id="social">
-              <a href="#"><i class="socialicon fa fa-lg fa-envelope" aria-hidden="true"></i></a>
+              <a href="mailto:ganchimeg10@gmail.com?" target="_top"><i class="socialicon fa fa-lg fa-envelope" aria-hidden="true"></i></a>
               <a href="#"><i class="socialicon fa fa-lg fa-github" aria-hidden="true"></i></a>
-              <a href="#"><i class="socialicon fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/ganchimeg-ganzorig/"><i class="socialicon fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
