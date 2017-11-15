@@ -415,7 +415,7 @@ body {
 .website-name {
     white-space: nowrap;
     color: #585858;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     overflow: hidden;
     top: 16%;
@@ -443,10 +443,9 @@ body {
 .fcontainer {
     margin-top: -17px;
     display: flex;
-    flex-flow: row wrap;
-    /*justify-content: space-around;*/
     justify-content: space-between;
     max-width: 1080px;
+    flex-wrap: wrap;
 }
 
 .fitem {
@@ -545,9 +544,89 @@ body {
     margin: 21px 15px;
 }
 
+.whackmole {
+    background-image: url('images/whackamole.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.weather {
+    background-image: url('images/weather2.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.wiki {
+    background-image: url('images/wiki8.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.twitch {
+    background-image: url('images/twitch.jpg');
+    background-size: cover;
+    background-position: center;    
+    max-width: 472px;
+    height: 300px;
+}
+
+.canvas {
+    background-image: url('images/canvas.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.speech {
+    background-image: url('images/speech.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.tapas {
+    background-image: url('images/tapas.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.timer {
+    background-image: url('images/clock.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.github {
+    background-image: url('images/github-battle.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
+.nasa {
+    background-image: url('images/NASA.png');
+    background-position: center;    
+    background-size: cover;
+    max-width: 472px;
+    height: 300px;
+}
+
 .fimage {
     object-fit: cover;
-    width: 100%;
+    max-width: 472px;
     height: 300px;
 }
 
@@ -626,7 +705,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .ffitem {
-        max-width: 500px;
+        max-width: 455px;
     }
 }
 
@@ -648,7 +727,7 @@ body {
 
 @media only screen and (max-width: 991px) {
     .fcontainer {
-      justify-content: space-around;
+      justify-content: space-evenly;
     }
 }
 
